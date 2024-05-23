@@ -1,8 +1,21 @@
 ---
 title: "yeve09.github.io"
-theme:
-  light: flatly
-  dark: darkly
+project:
+  type: website
+
+website:
+  title: "today"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
 ---
 
 This is a Quarto website.
