@@ -1,8 +1,8 @@
 ---
 title: "yeve09.github.io"
-format:
-  html:
-    theme: united 
+theme:
+  light: flatly
+  dark: darkly
 ---
 
 This is a Quarto website.
